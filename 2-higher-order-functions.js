@@ -3,5 +3,15 @@ function repeat(operation, num) {
   if (num >= 1) repeat(operation, --num);
 }
 
+// official solution:
+//
+// function repeat(operation, num) {
+//   if (num <= 0) return
+//   operation()
+//   return repeat(operation, --num)
+// }
+
+module.exports = repeat
+
 // Do not remove the line below
 module.exports = repeat

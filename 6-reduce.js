@@ -5,3 +5,5 @@ function countWords(inputWords) {
     return map; 
   }, {});
 }
+
+module.exports = countWords
