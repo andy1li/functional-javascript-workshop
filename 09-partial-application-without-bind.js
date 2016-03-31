@@ -1,8 +1,8 @@
 function logger(namespace) {
   // SOLUTION GOES HERE
   return function() {
-    var args = [].slice.call(arguments);
-    console.log.apply(console, [namespace].concat(args));
+    var newArgs = [].concat.apply([namespace], arguments);
+    console.log.apply(console, newArgs);
   };
 }
 
