@@ -11,7 +11,5 @@ function repeat(operation, num) {
 //   return repeat(operation, --num)
 // }
 
-module.exports = repeat
-
 // Do not remove the line below
 module.exports = repeat
